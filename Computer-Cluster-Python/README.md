@@ -1,4 +1,7 @@
 # Computer-Cluster-Python
+Dette prosjektet ble gjennomført på starten av studieløpet mitt.
+
+
 
 Oversikt over alle komponenter i en computer cluster, som brukes til å fordele tunge
 beregninger på mange maskiner slik at de kan jobbe i parallell. På den måten kan en
