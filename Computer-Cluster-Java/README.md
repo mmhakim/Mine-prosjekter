@@ -9,11 +9,11 @@
 i filen.
 
 - Filene er bygget opp slik at første linje beskriver antall noder per rack, mens de neste linjene
-  beskriver hvor mange noder, med hvor mye minne og antall prosessorer som skal settes inn, slik.
+  beskriver hvor mange noder, med hvor mye minne og antall prosessorer som skal settes inn, slik:
   ```
   Max antall noder per rack
   AntallNoder MinnePerNode AntallProsessorerPerNode
   AntallNoder MinnePerNode AntallProsessorerPerNode
   ...
   ```
-- Hovedprogram gir oss et eksempel på bruk av Regneklyngen.
+- Hovedprogram.java gir oss et eksempel på bruk av Regneklyngen.
