@@ -5,7 +5,7 @@
 
 ### Prosjekter gjennomført på starten av studieløpet:
 - [Game of Life (Python)](https://github.com/mmhakim/Mine-prosjekter/tree/master/Game-of-Life)
-- [Legesystem (Java)](https://github.com/mmhakim/Mine-prosjekter/tree/master/Legesystem)
+- [Computer Cluster (Java)](https://github.com/mmhakim/Mine-prosjekter/tree/master/Computer-Cluster-Java)
 - [Lenkelister (Java)](https://github.com/mmhakim/Mine-prosjekter/tree/master/Legesystem)
 
 ### Hobbyprosjekter gjennomført senere i studieløpet:
