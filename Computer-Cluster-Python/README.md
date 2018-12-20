@@ -1,23 +1,20 @@
-# Computer-Cluster-Python
-Dette prosjektet ble gjennomført på starten av studieløpet mitt.
+# Computer cluster
+> Dette prosjektet ble gjennomført på starten av studieløpet mitt.
+> Det er en oversikt over alle komponenter i en computer cluster, som brukes til å fordele tunge
+> beregninger på mange maskiner slik at de kan jobbe i parallell. På den måten kan en
+> imulering som ville tatt en måned å kjøre på en vanlig maskin, kjøres på computer
+> cluster på noen timer i stedet.
 
-
-
-Oversikt over alle komponenter i en computer cluster, som brukes til å fordele tunge
-beregninger på mange maskiner slik at de kan jobbe i parallell. På den måten kan en
-imulering som ville tatt en måned å kjøre på en vanlig maskin, kjøres på computer
-cluster på noen timer i stedet.
-
-.txt-filene med et gitt format blir lest av Regneklyngen og lager Regneklyngen etter spesifikasjoner
+- .txt-filene med et gitt format blir lest av Regneklyngen og lager Regneklyngen etter spesifikasjoner
 i filen.
 
-Filene er bygget opp slik at første linje beskriver antall noder per rack, mens de neste linjene
-beskriver hvor mange noder, med hvor mye minne og antall prosessorer som skal settes inn, slik:
+- Filene er bygget opp slik at første linje beskriver antall noder per rack, mens de neste linjene
+  beskriver hvor mange noder, med hvor mye minne og antall prosessorer som skal settes inn, slik:
+  ```
+  Max antall noder per rack
+  AntallNoder MinnePerNode AntallProsessorerPerNode
+  AntallNoder MinnePerNode AntallProsessorerPerNode
+  ...
+  ```
+- hovedprogram.py gir oss et eksempel på bruk av Regneklyngen.
 
-Max antall noder per rack
-AntallNoder MinnePerNode AntallProsessorerPerNode
-AntallNoder MinnePerNode AntallProsessorerPerNode
-...
-
-
-hovedprogram gir oss et eksempel på bruk av Regneklyngen.
