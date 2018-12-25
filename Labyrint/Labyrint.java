@@ -24,7 +24,7 @@ public class Labyrint {
       int antKolonner = sc.nextInt();
       System.out.println(sc.nextLine());
 
-      //for gjøre livet enklere når jeg skal tilordne koordinater til rutene
+      //for å gjøre livet enklere når jeg skal tilordne koordinater til rutene
       Rute[][] r1 = new Rute[antRader+2][antKolonner+2];
 
       //den faktiske labyrinten:
@@ -150,6 +150,15 @@ public class Labyrint {
     return ruter;
   }
 
+  /**
+ * Konverterer losning-String til en boolean[][]-representasjon
+ * av losningstien.
+ * @param losningString String-representasjon av utveien
+ * @param bredde        bredde til labyrinten
+ * @param hoyde         hoyde til labyrinten
+ * @return              2D-representasjon av rutene der true indikerer at
+ *                      ruten er en del av utveien.
+ */
   static boolean[][] losningStringTilTabell(String losningString, int bredde, int hoyde) {
       boolean[][] losning = new boolean[hoyde][bredde];
       java.util.regex.Pattern p = java.util.regex.Pattern.compile("\\(([0-9]+),([0-9]+)\\)");
