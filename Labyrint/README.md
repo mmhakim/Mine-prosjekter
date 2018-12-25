@@ -12,4 +12,5 @@
 - Åpne en av labyrintfilene (.in filene) for å få opp en GUI representasjon av labyrinten.
 - Trykk på en hvit rute for å få en mulig utvei fra denne ruten fargelagt.
 - Eksempelkjøring (en mulig utvei ble fargelagt etter at jeg trakk på en hvit rute):  
+  
   ![Eksempelkjøring](eksempelkjøring.PNG)
