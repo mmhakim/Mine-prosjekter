@@ -9,3 +9,4 @@
   ```
   java LabyrintGUI
   ```
+- Åpne en av labyrintfilene (.in filene) for å få opp en GUI representasjon av labyrinten.
