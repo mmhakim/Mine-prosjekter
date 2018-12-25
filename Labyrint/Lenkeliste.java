@@ -32,8 +32,6 @@ public class Lenkeliste<T> implements Liste<T> {
   @Override
   public void leggTil(int pos, T x) {
 
-    //TestLenkeliste viser at man skal kunne legge til i slutten av en liste,
-    // så skal ikke ha exception når pos == stoerrelse()
     if ((pos > stoerrelse() && stoerrelse() != 0) || pos < 0 || pos > stoerrelse()) {
       throw new UgyldigListeIndeks(pos);
     }
